@@ -1,6 +1,6 @@
 📜QA Portfolio – Next Level QA Intensive Course May 2025 – July 2025
 
-  This repository features assignments completed during the Next Level QA Intensive Course, demonstrating hands-on experience in web, mobile, API, and database testing.
+  This repository features completed assignments, demonstrating hands-on experience in web, mobile, API, and database testing.
 
     👇Summary of work
 
