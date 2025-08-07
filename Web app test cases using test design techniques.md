@@ -42,7 +42,7 @@
 
 **1\) Happy path (successful creation)**  
 **2\) Negative test case (checking for an error) in this form**  
-**3\) Adding Tier \- a happy path https://demo.benefiti.rs/\#/settings**
+**3\) Adding Tier \- a happy path **
 
 **1)Test Case 1:** Verify adding a new employee with valid input values  
     **Priority:** High  
