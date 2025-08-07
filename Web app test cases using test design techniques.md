@@ -38,7 +38,7 @@
 | EP3: (55;60\] | 55 | 56 | 60 | 61 |
 | EP4:speed\>60 |  60 | 61 |  |  |
 
-**2\.Write 3 test cases for the employee creation form:   [https://demo.benefiti.rs/\#/employees](https://demo.benefiti.rs/#/employees)**
+**2\.Write 3 test cases for the employee creation form: 
 
 **1\) Happy path (successful creation)**  
 **2\) Negative test case (checking for an error) in this form**  
