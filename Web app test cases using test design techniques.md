@@ -21,21 +21,16 @@ The speed in km/h is available to the system as an **integer value**.
 A smart home app measures the average temperature in the house over the previous week and provides feedback to the occupants on their environmental friendliness based on this temperature. 
 The feedback for different average temperature ranges (to the nearest °C) should be: 
 
-Temperature
-Feedback
-t≤10°C
-Icy Cool!
-[11°C;15°C]
-Chilled Out!
-(15°C;20°C)
-Cool Man!
-[20°C to 22°C]
-Too Warm!
-t>22°C
-Hot & Sweaty!
+| Temperature | Feedback |
+| :---- | :---- |
+|t≤10°C | Icy Cool! |
+|[11°C;15°C] | Chilled Out! |
+|(15°C;20°C) | Cool Man! |
+|[20°C to 22°C] | Too Warm! |
+|t>22°C | Hot & Sweaty! |
 
+**Using BVA(only Min- and Max values), which of the following sets of test inputs provides the highest level of boundary coverage?**
 
-Using BVA(only Min- and Max values), which of the following sets of test inputs provides the highest level of boundary coverage?
 
 
 | EP | min-1 | min | max | max+1 |
@@ -59,7 +54,19 @@ Using BVA(only Min- and Max values), which of the following sets of test inputs 
 
 **1.3 Draw a table of 2 point BVA**
 
-![][image3]
+A speed control and reporting system has the following characteristics: 
+
+| Speed(km/h) | Action |
+| :---- | :---- |
+|50 ≥ speed | Nothing will happen |
+|(50;55] | You will be warned! |
+|(55;60] | You will be fined! |
+|speed > 60 | Your driving license will be suspended! |
+
+**The speed in km/h is available to the system as an integer value.
+Which would be the most likely set of values (km/h) identified by applying the 2-value boundary value analysis(BVA), where only the values on the boundaries of the equivalence classes are selected?**
+
+
 
 | EP | min-1 | min | max | max+1 |
 | :---- | :---- | :---- | :---- | :---- |
