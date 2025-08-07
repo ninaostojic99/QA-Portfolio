@@ -1,7 +1,13 @@
   
 **1\. Draw and fill in the table for the 2BVA task from the ISTQB mock test**
 
-![][image1]
+A speed control and reporting system has the following characteristics: 
++If you drive 90 km/h or less, nothing will happen.
+If you drive faster than 90 km/h, but no more than 110 km/h, you will be warned.
+If you drive faster than 110km/h but not more than 130km/h, you will be fined.
+If you drive faster than 130km/h, your driving license will be suspended.
+The speed in km/h is available to the system as an integer value
+
 
 | EP | min-1 | min | max | max+1 |
 | :---- | :---- | :---- | :---- | :---- |
