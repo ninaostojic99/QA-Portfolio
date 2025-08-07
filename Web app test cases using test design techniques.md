@@ -2,10 +2,10 @@
 **1\. Draw and fill in the table for the 2BVA task from the ISTQB mock test**
 
 A speed control and reporting system has the following characteristics: 
--If you drive **90 km/h or less**, nothing will happen.
--If you drive **faster than 90 km/h**, but **no more than 110 km/h**, you will be warned.
--If you drive **faster than 110km/h** but **not more than 130km/h**, you will be fined.
--If you drive **faster than 130km/h**, your driving license will be suspended.
+- If you drive **90 km/h or less**, nothing will happen.
+- If you drive **faster than 90 km/h**, but **no more than 110 km/h**, you will be warned.
+- If you drive **faster than 110km/h** but **not more than 130km/h**, you will be fined.
+- If you drive **faster than 130km/h**, your driving license will be suspended.
 The speed in km/h is available to the system as an **integer value**.
 
 
@@ -18,7 +18,25 @@ The speed in km/h is available to the system as an **integer value**.
 
 **1.2. Write which values cover 100% per 2BVA this table**
 
-![][image2]
+A smart home app measures the average temperature in the house over the previous week and provides feedback to the occupants on their environmental friendliness based on this temperature. 
+The feedback for different average temperature ranges (to the nearest °C) should be: 
+
+Temperature
+Feedback
+t≤10°C
+Icy Cool!
+[11°C;15°C]
+Chilled Out!
+(15°C;20°C)
+Cool Man!
+[20°C to 22°C]
+Too Warm!
+t>22°C
+Hot & Sweaty!
+
+
+Using BVA(only Min- and Max values), which of the following sets of test inputs provides the highest level of boundary coverage?
+
 
 | EP | min-1 | min | max | max+1 |
 | :---- | :---- | :---- | :---- | :---- |
