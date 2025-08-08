@@ -58,7 +58,7 @@ The old price is displayed above the reduced price, the reduced price is crossed
 
 3\. Scroll down several times and then quickly up
 
-4\. Observe the behavior of the page
+4\. Examine the behavior of the page
 
 **Expected Results:** Products should load gradually and be immediately visible without showing empty (white) space. The visual transition during loading should be continuous and uninterrupted.
 
