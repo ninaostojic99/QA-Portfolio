@@ -69,34 +69,3 @@ During loading, the screen temporarily turns white while the products are loadin
 **Severity:** Medium  
 **Priority:** Medium
 
-**2)Detect the bugs and describe them \- Benefiti platform**
-
-**Title/Summmary:** Impossible to add benefits on the demo.benfiti.rs page in the role of HR due to an error regarding the expiration date. The system disables the addition of benefits and displays an error that the “Expiration Type” is not correct, although the field is still present and filled in correctly.  
-**Description:** As a user with the HR role, when I try to add a benefit, a message appears that Expiration Type is mandatory, even though that field is on the form and is filled.
-
-**Environment:** Desktop, Windows 11, Chrome Browser ver.13  
-**Precondition:** User is logged in with an HR account.
-
-1\) Go to the section “Company Benefits”
-
-2\) Fill in all required fields \- including Expiration Type
-
-3\) Click the “Add Company Benefit Group” button  
-4\) Enter a name  
-5\) Select a category  
-6\) Write a summary  
-7\) Add a photo  
-8\) Click on the button “Add”   
-9\) Inside the created Company benefit group click on the “Add benefit” button  
-10\) Enter a name  
-11\) Select an Expiration type  
-12\) Enter Benefit price in tokens  
-13\) Write a summary  
-14\) Click on the “Add” button
-
-**Expected Results:**The system should successfully save the new benefit if all fields are filled in correctly, including the Expiration Type, and should be displayed within the Benefit Group for which it was created.
-
-**Actual Results:** A popup window with the message "ValidationError:Expiration required" appears in the upper part of the screen. The user remains on the same page, the benefit is not created.
-
-**Severity:** High  
-**Priority:** High
