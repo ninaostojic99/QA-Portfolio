@@ -8,7 +8,7 @@ This repository features completed assignments, demonstrating hands-on experienc
 
 * 📅Created a comprehensive test plan
 
-* 🐞Documented two detailed bug reports based on functional testing.
+* 🐞Documented a detailed bug report based on functional testing.
 
 * ➡️Created and executed 8 HTTP requests in Postman using environment variables, dynamic test data, and reusable test script snippets.
 
